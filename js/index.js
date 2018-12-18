@@ -13,16 +13,15 @@ fetch(' https://s3-us-west-2.amazonaws.com/lgoveabucket/data_melp.json')
     
     rating.innerHTML = ` <small class="text-muted">Rating: ${random.rating} </small> `
     
-    direccion.innerHTML = `<p class="card-text"> La dirección del lugar es: </p>
+    direccion.innerHTML = `<p class="card-text"><strong> La dirección del lugar es: </strong> </p>
     <p class="card-text">  ${random.address.street} </p>
     ${random.address.city} , ${random.address.state}
     `
-    datos.innerHTML = ` <p class="card-text"> Para reservar, favor de comunicarse por estos medios: </p>
+    datos.innerHTML = ` <p class="card-text"><strong> Para reservar, favor de comunicarse por estos medios: </strong> </p>
     <p class="card-text">  Teléfono: ${random.contact.phone} </p>
     <p class="card-text"> Sitio web: <a href= " ${random.contact.site}"> ${random.contact.site} </a> </p>
     <p class="card-text"> Email: ${random.contact.email} </p>
     `
-
   }).catch(err => {
     // Do something for an error here
   });

@@ -1,4 +1,9 @@
-#imagenes .carousel-inner img {
+#contenido .carousel-inner img {
     max-height: 50vh;
     object-fit: cover;
+}
+
+#informacion, #imagenes {
+    background-color: #F8F9FA;
+    border-style: groove;
 }

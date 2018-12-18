@@ -21,26 +21,15 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Restaurantes</a>
             </li>
           </ul>
         </div>
       </nav>
-      <section id="imagenes">
+      <section id="contenido">
         <!-- Imagenes del restaurante -->
-      <div class="card mb-3">
+      <div class="card mb-3" id="imagenes">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -68,10 +57,10 @@
                 </a>
             </div>
             <!-- Información del restaurante -->
-            <div class="card-body">
+            <div class="card-body" id="informacion">
                 <h5 class="card-title" id="nombre"></h5>
                 <p class="card-text" id="rating"></p>
-                <p class="card-text">Descripción del sitio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, optio laudantium, velit error minima quo animi, nam voluptatem dolorem nisi a! Commodi dolor incidunt voluptates, sit tenetur minus aut voluptas.</p>
+                <p class="card-text"><strong>Descripción del restaurante: </strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, optio laudantium, velit error minima quo animi, nam voluptatem dolorem nisi a! Commodi dolor incidunt voluptates, sit tenetur minus aut voluptas.</p>
                 <p class="card-text" id="direccion"></p>
                 <p class="card-text" id="datos"></p>
             </div>
