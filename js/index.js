@@ -8,7 +8,7 @@ var latitud, leng
 var lat, leng
 >>>>>>> a859bf2d1b90a85c41a57d47a6ee3d497b064260
 
-    fetch(' https://s3-us-west-2.amazonaws.com/lgoveabucket/data_melp.json')
+    fetch(' //s3-us-west-2.amazonaws.com/lgoveabucket/data_melp.json')
     .then(data => data.json())
     .then(data => {
         var random = data[Math.floor(Math.random()*data.length)]
