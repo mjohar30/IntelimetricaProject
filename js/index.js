@@ -48,11 +48,6 @@ function initMap() {
         zoom: 18
       });
       var marcador = {lat: latitud, lng: leng}
-
-        center: {lat: lat, lng: leng},
-        zoom: 18
-      });
-      var marcador = {lat: lat, lng: leng}
       marker = new google.maps.Marker({position: marcador, map: map});
     }
 
